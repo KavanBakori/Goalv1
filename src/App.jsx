@@ -73,8 +73,8 @@ function App() {
         </svg>
       </button>
 
-      <Header daysRemaining={data.daysRemaining} />
-      <Stats daysGone={data.daysGone} daysRemainingInMonth={data.daysRemainingInMonth} />
+      <Header daysRemaining={data.daysRemaining} daysRemainingInMonth={data.daysRemainingInMonth} />
+      <Stats daysGone={data.daysGone} />
       <Calendar />
     </div>
   );
